@@ -12,16 +12,6 @@ export const selectCollectionsForPreview = createSelector(
     collections => Object.keys(collections).map(key => collections[key])
 )
 
-// export const selectCollection = collectionUrlParam => createSelector(
-//     [selectCollections],
-//     collections => {
-//         let collection = collections.filter(collection => 
-//             collection.title.toLowerCase() === collectionUrlParam)
-//         collection = Object.keys(collection).map(key => collection[key])[0]
-//         return collection
-//     }
-// )
-
 export const selectCollection = collectionUrlParam => createSelector(
     [selectCollections],
     collections => collections[collectionUrlParam]
