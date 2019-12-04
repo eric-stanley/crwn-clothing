@@ -1,4 +1,7 @@
 {
     "editor.cursorStyle": "line-thin",
-    "editor.fontFamily": "'Operator Mono', Menlo, Monaco, 'Courier New', monospace"
+    "editor.fontFamily": "'Operator Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true
 }
