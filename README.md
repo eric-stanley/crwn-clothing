@@ -69,4 +69,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ## Demo
 
-http://react-crwn-clothing.stanleyeric.com/
+https://heroku-react-crwn-clothing-app.herokuapp.com/
